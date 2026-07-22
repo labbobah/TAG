@@ -1,5 +1,5 @@
 # fonction qui dit bonjour
-def bonjour():
-    print("bonjour")
+def bonjour(self, name):
+    print(f"bonjour, {name}!")
 
-bonjour()
+bonjour(None, name="Alice")
